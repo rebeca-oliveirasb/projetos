@@ -1,7 +1,7 @@
 # Entrada de dados
 valor_compra = float(input("Digite o valor total da compra: "))
 
-# Processamento e sa[ida de dados
+# Processamento e saída de dados
 """ O programa calcula o desconto com base no valor da compra inserido pelo usuário e o aplica a esse valor;
 Na saída, exibe o desconto aplicado e o novo total a ser pago. """
 if valor_compra < 200:
