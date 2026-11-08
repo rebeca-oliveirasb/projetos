@@ -1,0 +1,79 @@
+/*Meu portal de entretenimento - Estilo CSS*/
+
+/*Ajuste geral*/
+* {
+    box-sizing: border-box;
+}
+
+/*Configurações da página*/
+body {
+    font-size: 100%;
+    margin: 0;
+    background-color: #3d4b49;
+}
+
+/*Alinhamento do texto*/
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*Organização do cabeçalho*/
+.cabecalho {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #00483f;
+}
+
+/*Título principal*/
+#titulo-principal {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*Organização das colunas*/
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    padding: 5px;
+}
+
+/*Estilo das caixas nas colunas*/
+.caixa-fs, .caixa-mp, .caixa-gt {
+    flex-grow: 1;
+    min-width: 0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #000000;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+/*Formatação das imagens*/
+.imagem-portal {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
